@@ -9,7 +9,21 @@
   <script src="app.js" async defer></script>
   <body>
     <div>
-      <h2>hello</h2>
+      <h2>Library</h2>
+      <form action="" id="bookForm">
+        <input type="text" id="title" placeholder="Title" />
+        <input type="text" id="author" placeholder="Author" />
+        <input type="text" id="year" placeholder="Year" />
+        <label for="read">read</label>
+        <input type="checkbox" id="read" />
+        <button id="addBook" type="submit">Add Book</button>
+      </form>
+      <form action="" id="showLibForm">
+        <button id="showLibButton" type="submit">Show Books</button>
+      </form>
+      <div id="bookList">
+        <table></table>
+      </div>
     </div>
   </body>
 </html>
